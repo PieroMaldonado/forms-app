@@ -59,3 +59,15 @@ Asegúrate de tener instalados los siguientes programas en tu sistema:
 3. **Ejecuta el proyecto**
    ```bash
    ng serve
+
+## Capturas front
+### Crear un formulario
+![image](https://github.com/user-attachments/assets/cac6a459-1134-425f-be51-0d709ecad15c)
+### Crear un input para el formulario
+![image](https://github.com/user-attachments/assets/0e5d5194-564a-4f08-8554-d47d9039975b)
+### Editar inputs
+![image](https://github.com/user-attachments/assets/b64fe769-1c74-4070-afa2-be4d9a001467)
+### Vista completa de un formulario con los botones para editar y eliminar, tanto el formulario, como cada uno de sus inputs
+![image](https://github.com/user-attachments/assets/e8a79076-de04-42cc-b4d2-37a73945fde9)
+
+
