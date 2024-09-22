@@ -1,0 +1,26 @@
+<div class="modal-header">
+    <h5 class="modal-title">Campo</h5>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.close()">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="modal-body">
+    <form [formGroup]="campoGroup" (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+            <label>Nombre del Campo</label>
+            <input formControlName="nombre_campo" type="text" class="form-control" placeholder="Ingrese el nombre del campo">
+        </div>
+        <div class="mb-3">
+            <label>Tipo del Campo</label>
+            <select formControlName="tipo_campo" class="form-control">
+                <option value="string">Texto</option>
+                <option value="number">Número</option>
+                <option value="date">Fecha</option>
+            </select>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" (click)="activeModal.close()">Cancelar</button>
+            <button type="submit" class="btn btn-success">Confirmar</button>
+        </div>
+    </form>
+</div>
